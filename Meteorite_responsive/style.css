@@ -226,10 +226,10 @@ span {
 
 @keyframes words {
     0%, 20% {
-        content: "University Student";
+        content: "Student";
     }
     21%, 40% {
-        content: "Survivor of Semester 4";
+        content: "Survivor";
     }
     41%, 60% {
         content: "Ancient 4 star"
