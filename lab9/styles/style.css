@@ -14,7 +14,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 0 10px;
-    background: url('/styles/photos/background.png') no-repeat;
+    background: url('/styles/photos/background6.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -136,22 +136,22 @@ form .drop-list {
 }
 
 .drop-list .icon:hover {
-    background-color: rgb(217, 173, 238);
+    background-color: rgb(179, 174, 207);
 }
 
 .drop-list .icon:active {
     transform: scale(0.9);  
     background-color: #ffffff; 
-    color: rgb(217, 173, 238); 
+    color: rgb(179, 174, 207); 
 }
 
 .select-box:active {
     transform: scale(0.99);
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(179, 174, 207);
 }
 
 .select-box:hover {
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(179, 174, 207);
 }
 
 form .exchange-rate {
@@ -171,20 +171,20 @@ form .exchange-rate {
 
 .buttons button:active {
     transform: scale(0.99);
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(179, 174, 207);
 }
 
 .buttons button:hover {
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(179, 174, 207);
 }
 
 .buttons .operator {
     color:#000000;
-    background-color:rgb(245, 224, 255);
+    background-color:rgb(217, 212, 247);
     font-weight: 700;
 }
 
-.exchange-rate button {
+.exchange-rate button  {
     height: 50px;
     width: 100%;
     outline: none;
@@ -199,10 +199,10 @@ form .exchange-rate {
 
 .exchange-rate button:active {
     transform: scale(0.99);
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(179, 174, 207);
 }
 
 .exchange-rate button:hover {
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(179, 174, 207);
 }
 
