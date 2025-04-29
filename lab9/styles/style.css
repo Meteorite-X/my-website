@@ -14,7 +14,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 0 10px;
-    background: url('background.png') no-repeat;
+    background: url('/styles/photos/background.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -26,12 +26,13 @@ body {
 
 .wrapper {
     width: 370px;
-    padding: 20px 30px 15px 30px;
+    padding: 20px 30px 0px 30px;
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
     color: white;
+    
 }
 
 .wrapper header {
@@ -120,7 +121,7 @@ form .drop-list {
 
 .select-box select::-webkit-scrollbar-thumb {
     background: #888;
-    border-radius: 50%;
+    border-radius: 5px;
     border-right: 2px solid white;
 }
 
