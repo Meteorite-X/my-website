@@ -14,7 +14,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 0 10px;
-    background: url('/styles/photos/backgroundlast.jpg') no-repeat;
+    background: url('/styles/photos/background.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -135,13 +135,13 @@ form .drop-list {
 }
 
 .drop-list .icon:hover {
-    background-color: #7b00bd;
+    background-color: rgb(217, 173, 238);
 }
 
 .drop-list .icon:active {
     transform: scale(0.9);  
     background-color: #ffffff; 
-    color: #7b00bd; 
+    color: rgb(217, 173, 238); 
 }
 
 .select-box:active {
