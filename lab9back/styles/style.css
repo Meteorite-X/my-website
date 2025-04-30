@@ -14,7 +14,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 0 10px;
-    background: linear-gradient(45deg, #392275, #05e6ff);
+    background: url('https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?cs=srgb&dl=pexels-cmonphotography-1809644.jpg&fm=jpg') no-repeat;
 }
 
 ::selection {
