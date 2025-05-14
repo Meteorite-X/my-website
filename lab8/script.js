@@ -120,22 +120,30 @@ document.querySelector("#exercise5 button").addEventListener("click", () => {
 });
 
 // Дасгал 6 - Хаалганы байршил
-document.querySelector("#exercise6 button").addEventListener("click", () => {
+document.querySelector("#exercise6 button").addEventListener("click", () => { 
     const number = parseInt(document.querySelector("#exercise6 input").value);
-    const apartmentsPerFloor = 4;
-    const floorsPerEntrance = 9;
-    const entrances = 3;
-    const totalFloors = floorsPerEntrance * entrances;
+    const apartmentsPerFloor = 4; // Давхар бүрийн айлын тоо
+    const floorsPerEntrance = 9;  // Орц бүрийн давхарын тоо
+    const entrances = 3;          // Орцны тоо
+    const totalApartments = apartmentsPerFloor * floorsPerEntrance * entrances; // Нийт орон сууцны тоо
 
-    const apartmentPerEntrance = apartmentsPerFloor * floorsPerEntrance;
-    const entrance = Math.ceil(number / apartmentPerEntrance);
-    const insideEntranceNumber = number - (entrance - 1) * apartmentPerEntrance;
-    const floor = Math.ceil(insideEntranceNumber / apartmentsPerFloor);
-    const door = ((insideEntranceNumber - 1) % apartmentsPerFloor) + 1;
+    // Хэрэв оруулсан дугаар хэт их байвал
+    if (number < 1 || number > totalApartments) {
+        document.querySelector("#exercise6 .answer").innerText = "Буруу хаалганы дугаар оруулсан байна.";
+        return;
+    }
 
+    const apartmentPerEntrance = apartmentsPerFloor * floorsPerEntrance; // Орц бүрт байгаа айлын тоо
+    const entrance = Math.ceil(number / apartmentPerEntrance);           // Орц
+    const insideEntranceNumber = number - (entrance - 1) * apartmentPerEntrance; // Орц доторх дугаар
+    const floor = Math.ceil(insideEntranceNumber / apartmentsPerFloor); // Давхар
+    const door = ((insideEntranceNumber - 1) % apartmentsPerFloor) + 1; // Хаалга
+
+    // Хариулт
     document.querySelector("#exercise6 .answer").innerText =
         `Орц: ${entrance}, Давхар: ${floor}, Хаалга: ${door}`;
 });
+
 
 // Дасгал 7 - Цагийн дагуу дүрс байрлуулах
 window.addEventListener("DOMContentLoaded", () => {
