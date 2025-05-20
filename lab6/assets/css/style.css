@@ -273,7 +273,7 @@ h6,
   }
 
   .nav-dots span.active {
-    background: #4f46e5;
+    background: #4e46e53b;
   }
 
   .accordion-item label {
@@ -387,6 +387,7 @@ h6,
     justify-content: center;
     justify-items: center;
     align-items: center;
+
   }
 }
 
@@ -761,6 +762,8 @@ figure.rounded.img {
   justify-content: center;
   width: 300px;
   height: 200px;
+  font-weight: bold ;
+  padding: 10px 30px;
 }
 
 .icon.btn-lg {
@@ -770,7 +773,7 @@ figure.rounded.img {
 
 .btn-soft-purple {
   color: var(--purple);
-  background-color: rgb(94, 81, 232);
+  background-color: rgba(94, 81, 232, 0.181);
 }
 
 .btn-soft-green {
