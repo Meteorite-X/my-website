@@ -235,7 +235,7 @@ span {
         content: "Ancient 4 star"
     }
     61%, 80% {
-        content: "Glory 93 star";
+        content: "Immortal 111 star";
     }
     81%, 100% {
         content: "Ghost";
@@ -267,3 +267,4 @@ span {
         margin-top: 4rem;
     }
 }
+
